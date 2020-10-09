@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JS Intro</title>
+  </head>
+  <body>
+      <h1 class="bg-success text-danger text-center p-5 heading">JS Contional structure</h1>
+
+      <!-- use if structure to check eligibility for diving -->
+      <div class="my-5">
+        <form class="border border-danger m-auto p-5 myForm" action="index.html" method="post">
+
+          <h4 class="text-danger mb-3">Checking for driving eligibility</h4>
+          <label class="text-dark" for="age">How old are you?</label>
+          <input id="age" type="number" name="" value="">
+          <br>
+          <br>
+
+
+          <!-- Button trigger modal -->
+          <button id="submit" type="button" class="btn btn-lg btn-success text-danger" data-toggle="modal" data-target="#exampleModal">
+            Submit
+          </button>
+        </form>
+
+      </div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cool!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div id="result" class="modal-body">
+        You can sit for driving license test.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- use if structure to dynamically bring html elements and style -->
+<div class="my-5">
+  <form class="bg-dark border border-danger m-auto p-5 myForm" action="index.html" method="post">
+
+    <h4 class="text-danger mb-3">Painting with color choice</h4>
+    <label class="text-success" for="age">What is your favourite color?</label>
+    <select id="color" name="colors">
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="yellow">Yellow</option>
+      <option value="black">Black</option>
+    </select>
+    <br>
+    <br>
+
+
+    <!-- Button trigger modal -->
+    <button id="colorIt" type="button" class="btn btn-lg btn-success text-danger" data-toggle="modal" data-target="#exampleModal">
+      Colour it!
+    </button>
+  </form>
+
+</div>
+
+
+<!-- work out the total, average and grade for a student's marks -->
+<div class="my-5">
+  <form class="bg-light border border-danger m-auto p-5 myForm" action="index.html" method="post">
+
+    <h4 class="text-success mb-3">Student's grade</h4>
+    <label class="text-danger p-3" for="name">Name</label>
+    <input  class="form-control bg-success border border-danger text-light" id="name" type="text" name="" value="">
+    <br>
+    <br>
+
+
+    <label class="text-danger p-3" for="mod1">Module1</label>
+    <input class="form-control" id="mod1" type="number" name="" value="">
+    <br>
+    <br>
+
+    <label class="text-danger p-3" for="mod2">Module2</label>
+    <input class="form-control" id="mod2" type="number" name="" value="">
+    <br>
+    <br>
+
+    <label class="text-danger p-3" for="mod3">Module3</label>
+    <input class="form-control" id="mod3" type="number" name="" value="">
+    <br>
+    <br>
+
+    <label class="text-danger p-3" for="mod4">Module4</label>
+    <input class="form-control" id="mod4" type="number" name="" value="">
+    <br>
+    <br>
+
+
+
+    <!-- Button trigger modal -->
+    <button id="showGrade" type="button" class="btn btn-lg btn-success text-danger" data-toggle="modal" data-target="#exampleModal">
+    Show Grade
+    </button>
+
+
+
+  </form>
+
+</div>
+
+    </script>
+    <!-- jquery -->
+    <script src="jquery-3.5.1.js">
+
+    </script>
+    <!-- jquery-ui -->
+
+    <!-- popperjs -->
+
+    <script src="popper-core-master/src/popper.js">
+
+   </script>
+
+    <script src="bootstrap-4.5.2-dist/js/bootstrap.min.js">
+
+    </script>
+    <script src="js/script.js">
+
+    </script>
+  </body>
+</html>
